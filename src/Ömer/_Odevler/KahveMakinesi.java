@@ -1,4 +1,4 @@
-package Ömer.Odevler;
+package Ömer._Odevler;
 
 import java.util.Scanner;
 
