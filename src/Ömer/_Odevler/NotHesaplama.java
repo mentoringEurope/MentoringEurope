@@ -38,5 +38,48 @@ public class NotHesaplama {
 
          */
 
+        System.out.print("Vize sınav sonucunuzu giriniz:    ");
+
+        double vize = sc.nextDouble();
+
+
+        System.out.print("Vize yüzdesini giriniz:   ");
+        double vizeYuzde = sc.nextDouble();
+
+
+        System.out.print("Final sınav sonucunu giriniz :   ");
+
+        double finalNot = sc.nextDouble();
+
+
+        System.out.print("Final yüzdesini giriniz :    ");
+
+        double finalYuzde = sc.nextDouble();
+
+
+        double VizeSonuc =vize * vizeYuzde;
+        double finalSonuc = finalNot * finalYuzde;
+        double dersNotuOrtalamasi = VizeSonuc + finalSonuc;
+
+
+
+        if (dersNotuOrtalamasi>=90 && dersNotuOrtalamasi<=100){
+            System.out.println("Harf notunuz : AA  " + "Not ortalamanız :  " + dersNotuOrtalamasi);
+        }else if (dersNotuOrtalamasi>=80 && dersNotuOrtalamasi<90){
+            System.out.println("Harf notunuz:  BA " + "Not ortalamanız   :" +dersNotuOrtalamasi);
+        }else if (dersNotuOrtalamasi>=70 && dersNotuOrtalamasi<80){
+            System.out.println("Harf notunuz:  BB " + "Not ortalamanız   :" +dersNotuOrtalamasi);
+        }else if (dersNotuOrtalamasi>=60 && dersNotuOrtalamasi<70){
+            System.out.println("Harf notunuz:  CB " + "Not ortalamanız   :" +dersNotuOrtalamasi);
+        }else if (dersNotuOrtalamasi>=50 && dersNotuOrtalamasi<60){
+            System.out.println("Harf notunuz:  CC " + "Not ortalamanız   :" +dersNotuOrtalamasi);
+        }else if (dersNotuOrtalamasi>=40 && dersNotuOrtalamasi<50){
+            System.out.println("Harf notunuz:  DC " + "Not ortalamanız   :" +dersNotuOrtalamasi);
+        }else if (dersNotuOrtalamasi>=30 && dersNotuOrtalamasi<40){
+            System.out.println("Ders notunuz:  DD " + "Not ortalamanız   :" + dersNotuOrtalamasi);
+        }else
+            System.out.println("Harf Notunuz: FF.  TEBRİKLER YAZ OKULUNA GİTMEYİ HAK KAZANDINIZ !!!" + "Not ortalamanız:   " +dersNotuOrtalamasi);
+
+
     }
 }

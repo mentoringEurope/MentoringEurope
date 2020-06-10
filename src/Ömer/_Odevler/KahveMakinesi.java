@@ -90,5 +90,66 @@ public class KahveMakinesi {
 
 
         Scanner sc = new Scanner(System.in);
+
+
+        System.out.println("--Hangi kahveyi istersiniz ?  -- ");
+
+        System.out.println("1.Türk Kahvesi " + "\n" + "2.Filtre Kahve" + "\n" + "3.Espresso" + "\n");
+
+
+        String hangiKahve = sc.nextLine();
+
+
+        if (hangiKahve.equalsIgnoreCase("Türk Kahvesi")){
+            System.out.println(hangiKahve + " hazırlanıyor..");
+        }else if (hangiKahve.equalsIgnoreCase("filtre kahve")){
+            System.out.println(hangiKahve + " hazırlanıyor.");
+        }else if (hangiKahve.equalsIgnoreCase("espresso")){
+            System.out.println(hangiKahve + " hazırlanıyor.");
+        }else
+            System.out.println("Hatalı tuşlama yaptınız. ");
+
+
+        System.out.print("\n   -- Süt eklememizi ister misiniz ?  (Evet  veya hayır olarak cevaplayınız : ");
+        String sut = sc.nextLine();
+
+        if (sut.equalsIgnoreCase("evet")){
+            System.out.println("süt ekleniyor...");
+        }else if (sut.equalsIgnoreCase("hayır")){
+            System.out.println("süt olmayacak.");
+        }
+
+
+        System.out.print("\n  -- Şeker ister misiniz ? Evet veya hayır olarak  cevaplandırınız:  ");
+
+        String seker = sc.nextLine();
+
+        if (seker.equalsIgnoreCase("evet")){
+            System.out.print("Kaç şeker olsun ? :  ");
+            int kacSeker = sc.nextInt();
+            System.out.println(kacSeker + " şeker ekleniyor...");
+        }else if (seker.equalsIgnoreCase("hayır")) {
+            System.out.println("Şeker eklenmiyor...");
+        }
+
+            System.out.print("\n --   Hangi boyutta olsun ? (büyük boy - orta boy- küçük boy olarak giriniz :  ");
+
+            String boskod = sc.nextLine();
+            String boyut = sc.nextLine();
+
+
+            if (boyut.equalsIgnoreCase("Büyük boy")){
+
+                System.out.println("Kahveniz " + boyut + " hazırlanıyor...");
+            }else if (boyut.equalsIgnoreCase("orta boy")){
+                System.out.println("Kahveniz " + boyut + " hazırlanıyor...");
+            }else if (boyut.equalsIgnoreCase("küçük boy")){
+                System.out.println("Kahveniz " + boyut + " hazırlanıyor...");
+            }
+
+
+        System.out.println("\n" + hangiKahve + " " + boyut + " hazırdır. Afiyet olsun :)))");
+
+        }
     }
-}
+
