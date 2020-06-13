@@ -6,7 +6,7 @@ public class Soru4 {
     int x = 3;
     int i = 0;
     while (i < 3) {
-        x += 1;
+        x += 1;  //x = x + 1
         i += 1;
     }
     System.out.println("x = " + x);
@@ -18,7 +18,7 @@ public class Soru4 {
 // A) x = 3
 //    i = 0
 
-// B) x = 6
+// B) x = 6  ****
 //    i = 3
 
 // C) x = 9

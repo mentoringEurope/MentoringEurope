@@ -12,7 +12,7 @@ public class Soru2 {
         System.out.println("bye");
     }
 }
-//  C) Hey
+//  A) Hey  *****
 //     Hey
 //     Hey
 //     bye

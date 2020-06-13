@@ -12,20 +12,20 @@ public class a_while {
             işlem2
             işlem3
 
-            arttırma, azaltma
+            arttırma, azaltma i++; i--;
 
             }
          */
 
         int sayi = 0;
-
+        int sayac = 0;
 
         while (sayi < 10){
 
             sayi++;
+            sayac++;
 
-
-            System.out.println("LOOP");
+            System.out.println("LOOP " + sayac);
         }
     }
 }

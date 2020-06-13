@@ -19,3 +19,11 @@ public class Do_While_Loops_2 {
 
     }
 }
+//---While ile farklı---
+//While da koşul false ise hiç yazdırmıyor.
+//Do While da bir kerede olsa yazdırıyor.
+
+//YUKARIDAN AŞAĞIYA OKUYOR.
+
+//Önce Do'yu okuyor sonra koşula
+// yani while'a bakıyor.

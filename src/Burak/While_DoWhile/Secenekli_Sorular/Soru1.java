@@ -17,6 +17,6 @@ public class Soru1 {
 //  B) Hey
 //     Hey
 
-//  C) Hey
+//  C) Hey  *****
 //     Hey
 //     Hey
