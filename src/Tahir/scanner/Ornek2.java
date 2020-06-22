@@ -1,4 +1,4 @@
-package Tahir.mentoring1;
+package Tahir.scanner;
 
 import java.util.Scanner;
 

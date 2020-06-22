@@ -1,4 +1,4 @@
-package Tahir.mentoring1;
+package Tahir.scanner;
 
 public class Homework {
     public static void main(String[] args) {
