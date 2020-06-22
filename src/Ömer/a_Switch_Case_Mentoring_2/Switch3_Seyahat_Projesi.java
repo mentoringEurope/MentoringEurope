@@ -1,5 +1,7 @@
 package Ömer.a_Switch_Case_Mentoring_2;
 
+import java.util.Scanner;
+
 public class Switch3_Seyahat_Projesi {
     public static void main(String[] args) {
 
@@ -65,15 +67,67 @@ todo İPUCU:  toplamTutar, işlem, FrankfurtKm, KmBirimFiyat   gibi sabit veri t
         3.double paraUstu oluşturun ve hesaplayın.
         4.Double para üstünü yazdırın.
 
+     */
+
+        Scanner sc = new Scanner(System.in);
+
+        double frankfurtKm = 60;
+        double KolnKm = 80;
+        double islem = 0;
+        double km = 5;
+        double bakiyem = 100;
+        double toplamTutar = 0;
 
 
+        System.out.println("Nereye yolculuk etmek istiyorsunuz ? (Frankfurt:60 KM  -----   Köln: 80 KM--  (20 km başına 5 euro bilet parası alınmaktadır..)");
+
+        String nereye = sc.nextLine().toUpperCase();
+
+        switch (nereye){
+
+            case ("FRANKFURT"):
+
+                System.out.println("Rota = " + nereye);
+                islem=(frankfurtKm/20) *km;
+                System.out.println(nereye + " " + islem + "Euro");
+                toplamTutar+=islem;
+
+                break;
+
+            case ("KÖLN"):
+
+                System.out.println("Rota = " + nereye);
+                islem= (KolnKm/20)*km;
+                System.out.println(nereye + " " + islem + "Euro");
+                toplamTutar+=islem;
+
+                break;
+        }
 
 
+        System.out.println("Kaç kişilik bilet ? (Max 2 kişilik olabilir)");
+
+        int kisi = sc.nextInt();
 
 
+        switch (kisi){
 
+            case 1:
+                System.out.println(kisi +" Kişilik");
 
-         */
+                break;
 
+            case 2:
+                System.out.println(kisi + " kişilik");
+                toplamTutar*=2;
+
+        }
+
+        System.out.println("Rota :  " + nereye + " - " + kisi +" Kişilik");
+
+        System.out.println("\nBakiyem : " + bakiyem);
+        System.out.println("Toplam Tutar : " + toplamTutar);
+        double paraUstu = bakiyem - toplamTutar;
+        System.out.println("Para üstü = " + paraUstu);
     }
 }
