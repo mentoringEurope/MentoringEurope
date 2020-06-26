@@ -1,4 +1,4 @@
-package Ömer.ab_ArrayMethodlari_2DArray_Mentoring3;
+package Ömer.Mentoring3_Array_2DArray;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package Ömer.ab_ArrayMethodlari_2DArray_Mentoring3.kahoot;
+package Ömer.Mentoring3_Array_2DArray.kahoot;
 
 public class deneme2 {
 

@@ -1,4 +1,4 @@
-package Ömer.a_Switch_Case_Mentoring_2;
+package Ömer.Mentoring2_SwitchCase;
 
 import java.util.Scanner;
 

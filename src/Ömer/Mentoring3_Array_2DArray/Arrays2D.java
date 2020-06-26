@@ -1,4 +1,4 @@
-package Ömer.ab_ArrayMethodlari_2DArray_Mentoring3;
+package Ömer.Mentoring3_Array_2DArray;
 
 public class Arrays2D {
     public static void main(String[] args) {
