@@ -3,6 +3,7 @@ package Ömer.Mentoring4_ArrayList_Methodlari;
 import java.util.ArrayList;
 import java.util.Collections;
 
+
 public class n_Collections {
     public static void main(String[] args) {
 
@@ -17,9 +18,9 @@ public class n_Collections {
 
         System.out.println("ilk hal :  " + sayi);
 //                      SIRALAMA
-        Collections.sort(sayi);
+      Collections.sort(sayi);
 
-        System.out.println("sıralı :  " + sayi);
+      System.out.println("sıralı :  " + sayi);
 
         //                          MAX -MİN
         System.out.println("Max sayı :  "   + Collections.max(sayi));
