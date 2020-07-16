@@ -1,4 +1,4 @@
-package Sema.TwoD.TwoD;
+package Sema.twoD.TwoD;
 
 public class Q5 {
     public static void main(String[] args) {

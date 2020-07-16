@@ -1,4 +1,4 @@
-package Sema.TwoD.withMethod;
+package Sema.twoD.withMethod;
 
 public class Task {
    /*
