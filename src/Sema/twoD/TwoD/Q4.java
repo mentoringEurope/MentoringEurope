@@ -1,12 +1,12 @@
-package Sema.TwoD.TwoD;
+package Sema.twoD.TwoD;
 
-public class Q3 {
+public class Q4 {
     public static void main(String[] args) {
         double[][] things =
                 { {1.2, 9.0},
                   {9.2, 0.5, 0.0},
                   {7.3, 7.9, 1.2, 3.9} } ;
-        System.out.println(things.length);
+        System.out.println(things[2].length);
     }
 }
 /*

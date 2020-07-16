@@ -1,4 +1,4 @@
-package Sema.TwoD.withMethod;//package chapter7;
+package Sema.twoD.withMethod;//package chapter7;
 
 public class Task1GradeExam {
   /*
