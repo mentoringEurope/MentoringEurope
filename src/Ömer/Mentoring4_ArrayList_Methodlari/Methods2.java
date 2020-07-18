@@ -23,12 +23,12 @@ public class Methods2 {
         b.add("F");
 //
       System.out.println("b =  " + b);
-//        a.removeAll(b); // a 'dan, b ile ortak olan elemanları çıkart.
-//
+//       a.removeAll(b); // a 'dan, b ile ortak olan elemanları çıkart.
+
 //        System.out.println(a);
-////
-////        b.removeAll(a);
-////        System.out.println(b);
+//
+        b.removeAll(a);
+        System.out.println(b);
 
 
 
