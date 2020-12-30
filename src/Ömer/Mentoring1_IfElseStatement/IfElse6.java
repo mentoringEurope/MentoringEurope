@@ -55,7 +55,7 @@ public class IfElse6 {
 
         if (toplam<10){
             System.out.println("Kısa Mesaj ->>>> " + toplam );
-        }else if (toplam>=10 && toplam<=15){
+        }else if (toplam <= 15){
             System.out.println("Orta Mesaj -->>>  " + toplam);
         }else{
             System.out.println("Uzun mesaj ->>>> " + toplam);

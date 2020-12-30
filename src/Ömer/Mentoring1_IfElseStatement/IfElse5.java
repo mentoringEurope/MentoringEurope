@@ -10,9 +10,6 @@ public class IfElse5 {
            /*
         VE - VEYA    && -- ||
 
-
-
-
         Ve = &&      Verilen koşulda,
              1. kosul  VE 2. kosulun beraber sağlanmaları gerekiyor.
              2.Iki koşul da sağlanırsa kod çalışır. kodun çalışması için ilk koşulun da SAĞLANMASI ZORUNLUDUR.

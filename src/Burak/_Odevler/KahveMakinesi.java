@@ -1,4 +1,4 @@
-package Ömer._Odevler;
+package Burak._Odevler;
 
 import java.util.Scanner;
 
